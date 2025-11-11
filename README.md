@@ -12,8 +12,8 @@ Este proyecto implementa un sistema de Reconocimiento de Actividad (HAR - Human 
 ## ⚙️ Flujo de Trabajo
 
 1. **Adquisición y Captura de Dataset**
-   * **Muestreo en el MCU:** El frimware captura los datos del acelerómentro a una frecuencia de 10 Hz por un período de 3 segundos.
-   * **Captura Dataset:** Los datos son enviados a un Jupyter Notebook como cadena de valores separados por coma a través de un puerto serial virutal (VCP). Se capturaron 90 movimientos para cada letra (M,H,R) con ventanas de 30 muestras en cada movimiento.
+* **Muestreo en el MCU:** El frimware captura los datos del acelerómentro a una frecuencia de 10 Hz por un período de 3 segundos.
+* **Captura Dataset:** Los datos son enviados a un Jupyter Notebook como cadena de valores separados por coma a través de un puerto serial virutal (VCP). Se capturaron 90 movimientos para cada letra (M,H,R) con ventanas de 30 muestras en cada movimiento.
     
 2. **Preprocesaiento**
 
