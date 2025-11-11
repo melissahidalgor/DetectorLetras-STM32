@@ -32,7 +32,8 @@ Este proyecto implementa un sistema de Reconocimiento de Actividad (HAR - Human 
     El modelo tuvo un peso de 6.30 KB
 
 4. **Despliegue (MCU)**
-      El despliegue del modelo Keras (.h5) en la Black Pill se realizóa través del paquete de expansión de software STM32Cube.AI (`X-CUBE-AI`), que actúa como un puente entre el framework de entrenamiento TensorFlow y el firmware embebido.
+
+     El despliegue del modelo Keras (.h5) en la Black Pill se realizóa través del paquete de expansión de software STM32Cube.AI (`X-CUBE-AI`), que actúa como un puente entre el framework de entrenamiento TensorFlow y el firmware embebido.
 
     Para  ejecutar el modelo se integró la fase caputra y el pre-procesamiento para la extracción de características de las nuevas inferencias. El post-procesamiento consistió en analizar el buffer de salida  para determinar la clase con mayor probabilidad e imprimir el resultado de la inferencia por el puerto serial virtual USB (VCP).
 
