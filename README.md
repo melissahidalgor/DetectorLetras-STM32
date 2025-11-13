@@ -5,7 +5,7 @@ Este proyecto implementa un sistema de Reconocimiento de Actividad (HAR - Human 
 ## 💻 Hardware y Componentes
 
 | Componente | Conexión/ Tecnología| Función Principal |
-| :--- | :---: | :--- |
+| :--- | :---: | :---  | 
 | **STM32F411 BlackPill** | Microcontrolador | Utilizado por su capacidad de procesamiento |
 | **MPU6050** | I2C| IMU - Unidad de Medición Inercial |
 
@@ -37,4 +37,19 @@ Este proyecto implementa un sistema de Reconocimiento de Actividad (HAR - Human 
 
     Para  ejecutar el modelo se integró la fase caputra y el pre-procesamiento para la extracción de características de las nuevas inferencias. El post-procesamiento consistió en analizar el buffer de salida  para determinar la clase con mayor probabilidad e imprimir el resultado de la inferencia por el puerto serial virtual USB (VCP).
 
-🧠
+## 🎥 Video Explicativo
+
+[https://drive.google.com/file/d/1PTjMPiA3vfWX6udvvVP7GrOufDO9nVzP/view?usp=sharing](https://drive.google.com/file/d/1PTjMPiA3vfWX6udvvVP7GrOufDO9nVzP/view?usp=sharing)
+
+## 🧠 Métricas de Rendimiento 
+
+
+**Exactitud:** 0.93
+
+| Métrica | m | H | R |
+| :--- | :---: | :--- |:--- |
+| **Precisión** | 1 | 0.83 | 1 |
+| **Recall** | 0.9 | 1 | 0.9 |
+| **F1 Score** | 0.94 | 0.9 | 0.94 |
+
+![texto alternativo](Documentacion/MatrizConfusion.png)
