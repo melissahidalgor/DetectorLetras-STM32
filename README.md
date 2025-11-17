@@ -3,7 +3,7 @@
 ## Resumen del Proyecto
 Este proyecto implementa un sistema de Reconocimiento de Actividad (HAR - Human Activity Recognition) en un microcontrolador STM32F401 (Black Pill), utilizando una Red Neuronal Densa (DNN). El objetivo es clasificar tres movimientos específicos, trazados en el aire con la tarjeta, que representan las letras 'M', 'H' y 'R'
 
-## 💻 Hardware y Componentes
+## 💻 Hardware 
 
 | Componente | Conexión/ Tecnología| Función Principal |
 | :--- | :---: | :---  | 
